@@ -1,0 +1,13 @@
+/* pages/EightDiagrams/EightDiagrams.wxss */
+.HexagramList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HexagramListWrap {
+  width: 90%;
+  height: 600rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}

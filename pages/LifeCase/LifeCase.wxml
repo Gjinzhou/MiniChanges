@@ -1,0 +1,18 @@
+<view class="">
+  <view class="compassTitle">
+    <view class="titleWrap">
+      <picker mode="date" value="{{ date }}" start="1900-01-01" end="2099-12-31" bindchange="bindDateChange">
+        <view class="title">{{ date }}</view>
+        <View class="description">基于三元命理论转为阴历进行计算</View>
+      </picker>
+    </view>
+    <view class="sexSelect" style="border-color: {{sex=='男'?'#409EFF':'#F56C6C'}};" bindtap="sexChange">{{sex}}</view>
+  </view>
+  <view class="pageContent">
+    <view class="menuItem">
+      <view class="menuText">{{ fate }}</view>
+      <image class="menuIcon" src="../images/icon_nav_special.png"></image>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/HouseLayout/HouseLayout.wxml-->
+<view class="compassPage">
+  <!-- <view>{{direction}}</view> -->
+  <view class="compassTitle">
+    <view class="titleWrap">
+      <view class="title">Compass</view>
+      <View class="description">请指向南方后选择房间门锁对应的房间格局</View>
+    </view>
+    <view class="compassBackWrap" style="{{shadow}}">
+      <image class="compassBack" style="{{transform}}" src="./compassBack.jpg"></image>
+    </view>
+  </view>
+  <image class="compass" src="./compass.jpg"></image>
+</view>

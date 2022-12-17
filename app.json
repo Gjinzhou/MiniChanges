@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/LifeCase/LifeCase",
+    "pages/ClothingColor/ClothingColor",
+    "pages/Marriage/Marriage",
+    "pages/Phone/Phone",
+    "pages/EightDiagrams/EightDiagrams",
+    "pages/HouseLayout/HouseLayout"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "WeUI for 小程序",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#EDEDED"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

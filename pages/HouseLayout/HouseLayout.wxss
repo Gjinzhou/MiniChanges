@@ -1,0 +1,57 @@
+/* pages/HouseLayout/HouseLayout.wxss */
+.compass {
+  width: 95vw;
+  height: 95vw;
+  box-shadow: 0 0 10rpx #000;
+  align-self: center;
+  border-radius: 20rpx;
+  overflow: hidden;
+  /* position: absolute; */
+}
+/* .compassWrap {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} */
+/* .compassDot {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: red;
+  transform: translate(0vw, 50vw);
+} */
+.compassBackWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 200rpx;
+  height: 200rpx;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 40rpx #ccc;
+  transition: all 1s;
+}
+.compassBack {
+  width: 220rpx;
+  height: 220rpx;
+  flex-shrink: 0;
+}
+.titleWrap {
+  padding-left: 40rpx;
+  padding-right: 30rpx;
+  margin: 20rpx 0;
+}
+
+.compassPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}

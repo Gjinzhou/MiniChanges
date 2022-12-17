@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="">
+  <view class="titleWrap">
+    <view class="title">Changes</view>
+    <View class="description">一套封装了常用功能的周易工具集</View>
+  </view>
+  <view class="pageContent">
+    <view
+      class="menuItem"
+      wx:for="{{ menuList }}"
+      data-item="{{ item }}"
+      wx:key="index"
+      bindtap="handleMenuClick"
+    >
+      <view class="menuText">{{ item.title }}</view>
+      <image class="menuIcon" src="{{ item.icon }}"></image>
+    </view>
+  </view>
+  <!-- <image class="menuIcon" src="../images/icon_footer_link.png"></image> -->
+</view>

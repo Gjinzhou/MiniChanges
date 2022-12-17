@@ -1,0 +1,11 @@
+<!--pages/EightDiagrams/EightDiagrams.wxml-->
+<view class="pageWrap">
+  <picker-view indicator-style="height: 50px;" class="HexagramListWrap" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{HexagramList}}" class="HexagramList">{{item.text}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{HexagramList}}" class="HexagramList">{{item.text}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>
